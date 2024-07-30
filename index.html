@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.svg" alt="logo alura" class="logo">
+    </header>
+    
+    <main>
+        <section class="seccion-a">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="aviso-encriptador">
+                <img src="img/aviso.svg" alt="imagen-aviso">
+                <p class="aviso-texto"> Solo letras minúsculas y sin acentos </p>
+             </div>
+
+             <div class="contenedor-encriptador"> 
+                <button type="submit" class="btn-encriptar" >Encriptar<button>
+
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="seccion-b">
+           <div class="tarjeta-contenedor">
+            <img src="img/bug-fixing-1-83.png" alt="imagen-muneco" class="img-muneco">
+            <p class="texto-a"> Ningún mensaje fue encontrado</p>
+            <p class="texto-b"> Ingrese el texto que desee encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar"> Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer"> <p>Challenge encriptador de texto - desarrollado por Fernando Salazar</p> 
+        <a href="https://www.linkedin.com/in/fernando-salazar-tilmans/" rel="">
+        <img src="img/linkedin.svg" alt="logo-linkedin" class="linkedin"></a>
+        <a href="https://github.com/FSalazarTilmans" rel="">
+            <img src="img/github.svg" alt="logo-github" class="github"></a>
+
+    </footer>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
